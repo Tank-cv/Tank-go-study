@@ -37,12 +37,10 @@ func base64dec(str string) (string, error) {
 	return string(d), err
 }
 func urleco(str string) string {
-	var str string
 	return url.QueryEscape(str)
 
 }
 func urldeco(str string) (string, error) {
-	var str string
 	return url.QueryUnescape(str)
 }
 func hexenc(str string) string {
@@ -72,11 +70,12 @@ func main() {
 				var ans string
 				switch ech {
 				case 1:
+
 					ans = base64enc(input)
 				case 2:
-					ans = hexenc(input)
-				case 3:
 					ans = urleco(input)
+				case 3:
+					ans = hexenc(input)
 				}
 				f.Printf("%s\n", ans)
 
