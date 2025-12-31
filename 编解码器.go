@@ -93,11 +93,12 @@ func main() {
 				ans, err := "", error(nil)
 				switch dec {
 				case 1:
+
 					ans, err = base64dec(input)
 				case 2:
-					ans, err = hexdec(input)
-				case 3:
 					ans, err = urldeco(input)
+				case 3:
+					ans, err = hexdec(input)
 				}
 				if err != nil {
 					f.Println("解码错误", err)
