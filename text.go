@@ -63,7 +63,7 @@ func cashier2() {
 }
 func produce(ch chan<- int) {
 	// 模拟一定数量的顾客到达，只将顾客发送到目标收银台的 channel
-	for i := 1; i <= 10000; i++ {
+	for i := 1; i <= 5; i++ {
 		fmt.Printf("客人%d 到达队列\n", i)
 		ch <- i
 	}
