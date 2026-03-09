@@ -1,1 +1,1 @@
-支持build/test/run/clean/docker构建.
+支持build/test/run/clean/docker构建。
