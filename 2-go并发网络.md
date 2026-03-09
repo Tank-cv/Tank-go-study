@@ -1,1 +1,0 @@
-第二阶段Go并发与网络编程内容（Day8-14），覆盖goroutine、channel、select、TCP/HTTP编程、综合实战。每章含核心概念、代码、项目小练习。
