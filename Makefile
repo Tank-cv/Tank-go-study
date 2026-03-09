@@ -1,1 +1,4 @@
-支持build/test/run/clean/docker构建。
+# Makefile 内容...
+
+all:
+	@echo "Building project..."

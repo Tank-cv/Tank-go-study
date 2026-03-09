@@ -1,1 +1,4 @@
-一键Go环境准备自动脚本。
+#!/bin/bash
+# setup.sh内容...
+
+echo "Setting up the project..."
